@@ -16,8 +16,8 @@
 class Flip < Formula
   desc "Terminal quiz trainer — a deck-agnostic template engine"
   homepage "https://github.com/ffy6511/flip"
-  url "https://github.com/ffy6511/flip/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "b2fdff501ab90ada11cf56228c84fe557ac1459448313d29e7c3c8c3fac3db15"
+  url "https://github.com/ffy6511/flip/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "aa5dd10ca235ab5015d8b232e01eb3bc0496e8e8301588a43e915b4317d23e18"
   license "MIT"
 
   # flip is pure Python; the formula installs it into an isolated venv and
