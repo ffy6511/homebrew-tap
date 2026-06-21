@@ -14,10 +14,12 @@
 # when the workflow cannot publish.
 
 class Flip < Formula
+  include Language::Python::Virtualenv
+
   desc "Terminal quiz trainer — a deck-agnostic template engine"
   homepage "https://github.com/ffy6511/flip"
-  url "https://github.com/ffy6511/flip/archive/refs/tags/v0.1.4.tar.gz"
-  sha256 "362d36dc7457e9dda71627c9b72ee4c1ddec878719a579c6404dce24b0858b47"
+  url "https://github.com/ffy6511/flip/archive/refs/tags/v0.1.5.tar.gz"
+  sha256 "16cf9b9efedd36492361ec291b59b488e9083244f1eb34330f4b51b91ab697fb"
   license "MIT"
 
   # flip is pure Python; the formula installs it into an isolated venv and
